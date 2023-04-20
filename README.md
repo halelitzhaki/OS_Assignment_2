@@ -15,7 +15,9 @@ make all
 ```
 
 To use cmp, run on terminal the following command:
+```
 cmp <file1> <file2> <flag> <flag>
+```
 For example:
 ```bash
 ./cmp first_file.txt second_file.txt -v
