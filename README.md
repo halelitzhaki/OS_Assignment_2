@@ -15,34 +15,44 @@ make all
 ```
 
 To use cmp, run on terminal the following command:
-```
-cmp <file1> <file2> <flag> <flag>
-```
+
+./cmp [file1] [file2] [flag] [flag]
+
 For example:
 ```bash
 ./cmp first_file.txt second_file.txt -v
 ```
 
+
 To use copy, run on terminal the following command:
-copy <file1> <file2> <flag> <flag>
+
+./copy [file1] [file2] [flag] [flag]
+
 For example:
 ```bash
 ./copy source.txt target.txt -f -v
 ```
 
+
 To use codecA, run on terminal the following command:
-encode/decode <codecA> <message>
+
+./encode or ./decode [codecA] [message]
+
 For example:
 ```bash
 ./encode codecA aaaBBB
 ```
 
+
 To use codecB, run on terminal the following command:
-encode/decode <codecB> <message>
+
+./encode or ./decode [codecB] [message]
+
 For example:
 ```bash
 ./decode codecB EEEddd
 ```
+
 
 To use stshell, run on terminal the following command:
 ```bash
