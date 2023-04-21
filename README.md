@@ -16,7 +16,7 @@ git clone https://github.com/halelitzhaki/OS_Assignment_2.git
 
 ## Usage
 
-Run on terminal the following command
+Run on terminal the following command:
 ```bash
 make all
 ```
