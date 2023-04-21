@@ -1,5 +1,9 @@
 # OS_Assignment_2
 
+Written by:
+1. Halel Itzhaki - 322989674
+2. Ori Ekshtein - 213562069
+
 This assignment includes the following programs:
 1. cmp tool - implementing the shell cmp command, supporting -v and -i flags (-v for verbose output, -i for ignoring char case)
 2. copy tool - implementing the shell copy command, supporting -v and -f flags (-v for verbose output, -f for forcing openning new target file)
