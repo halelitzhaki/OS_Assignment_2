@@ -7,6 +7,13 @@ This assignment includes the following programs:
 4. codecB encode/decode tool - encoding/decoding strings by coverting all chars to the 3-rd next char
 5. stshell tool - student running shell, that implements every shell command with supporting '>', '>>' and at least two '|'.
 
+## Installation
+
+To install OS_Assignment_2, run on terminal - 
+```bash
+git clone https://github.com/halelitzhaki/OS_Assignment_2.git
+```
+
 ## Usage
 
 Run on terminal the following command
