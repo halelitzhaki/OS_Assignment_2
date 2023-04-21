@@ -1,4 +1,4 @@
-all: codeA.so codeB.so encode decode stshell
+all: codeA.so codeB.so encode decode cmp copy stshell
 
 stshell: stshell.o
 	gcc -o stshell stshell.o
@@ -8,6 +8,12 @@ encode: encode.o
 
 decode: decode.o
 	gcc -o decode decode.o ./codeA.so ./codeB.so
+	
+copy: copy.o
+	gcc -o copy copy.o	
+	
+cmp: cmp.o
+	gcc -o cmp cmp.o
 
 stshell.o: stshell.c
 	gcc -c stshell.c
@@ -29,6 +35,12 @@ codeB.o: codeB.c codeB.h
 
 codeA.o: codeA.c codeA.h
 	gcc -c codeA.c
+
+copy.o: copy.c
+	gcc -c copy.c
+
+cmp.o: cmp.c
+	gcc -c cmp.c
 	
 clean:
-	rm *.o *.so encode decode stshell
+	rm *.o *.so encode decode cmp copy stshell
