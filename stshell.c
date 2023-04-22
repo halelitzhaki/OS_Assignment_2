@@ -22,7 +22,7 @@ int main() {
 	char *argv[10], command[1024], *token;
 
 	signal(SIGINT, sigint_exit);
-    printf("Welcome!\n");
+	printf("Welcome!\n");
 
 	while (1) {
 	    printf("# ");
