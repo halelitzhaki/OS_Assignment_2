@@ -1,3 +1,5 @@
+default: all
+
 all: codeA.so codeB.so encode decode cmp copy stshell
 
 stshell: stshell.o
